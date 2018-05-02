@@ -1,6 +1,6 @@
-<%-- 
-    Document   : newjsp
-    Created on : 2018/04/22, 15:16:15
+%-- 
+    Document   : hensu
+    Created on : 2018/04/23, 15:43:30
     Author     : “Þ—TŽq
 --%>
 
@@ -10,11 +10,13 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-    </head>
+    </head><%
+         String syun ="saito";
+         out.print(syun);
+
+        %>
     <body>
-        <h1>Hello World!</h1>
-        <%
-            out.print("hello world");
-           %>
+        
     </body>
+    
 </html>
