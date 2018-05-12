@@ -1,4 +1,4 @@
-    </head>
+  </head>
     <body>     
   <%
  int syun=1;
@@ -10,7 +10,7 @@ case 2:
  out.print("two");
  break;
 case 3:
- out.print("‚»‚êˆÈŠO");
+ out.print("‘z’èŠO");
 }
 
  %>
