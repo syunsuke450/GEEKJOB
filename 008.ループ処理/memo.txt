@@ -1,0 +1,28 @@
+<%-- 
+    Document   : newjsp3
+    Created on : 2018/05/16, 7:45:44
+    Author     : “Þ—TŽq
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body><%
+long syun=1;
+ int n=20;
+ for(int i=1;i<=n;i++){
+     syun=syun*8;  
+ 
+ out.print(i+"‰ñ–Ú");
+ out.print(syun);
+ out.print("<br>");
+ 
+} 
+%>
+
+    </body>
+</html>
